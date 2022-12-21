@@ -8,7 +8,7 @@ type Users struct {
 }
 
 type Input struct {
-	Input_Username string `json:"username`
+	Input_Username string `json:"username"`
 	Input_Password string `json:"password"`
 }
 
