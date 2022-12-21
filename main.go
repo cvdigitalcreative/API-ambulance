@@ -29,6 +29,7 @@ func main() {
 	k.POST("/login/", controller.Login)
 
 	// EndPoint Transaksi
+	k.GET("/read_transaksi/:id_supir/:id_status_transaksi", controller.ReadTransaksi)
 	k.PUT("/update_transaksi/:id_status_transaksi/:id_transaksi", controller.UpdateTransaksi)
 
 	k.Start(":8080")
